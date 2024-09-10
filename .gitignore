@@ -1,35 +1,29 @@
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## User settings
-xcuserdata/
-
-## Obj-C/Swift specific
+build/
+Build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
 *.hmap
-
-## App packaging
 *.ipa
-*.dSYM.zip
-*.dSYM
+*.xcuserstate
+*.o
+.swiftpm/
+docs/docsets
+*.xcframework
 
-## Playgrounds
 timeline.xctimeline
-playground.xcworkspace
-
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
-.build/
+.vscode
 
 # CocoaPods
 #
@@ -48,6 +42,10 @@ playground.xcworkspace
 # Carthage/Checkouts
 
 Carthage/Build/
+
+# Various
+
+.DS_Store
 
 # fastlane
 #
